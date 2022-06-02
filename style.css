@@ -1,0 +1,12 @@
+body{
+    background-color: whitesmoke;
+}
+
+.conteudo{
+    margin-top: 10em;
+    margin-left: 32em;
+}
+
+#btn{
+    background-color: rgb(143, 226, 143);
+}
