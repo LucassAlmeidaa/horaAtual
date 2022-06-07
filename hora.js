@@ -2,5 +2,5 @@ let parag = document.querySelector('.parag');
 
 function clicar(){
     now = new Date
-    parag.innerHTML = 'No horário de brasilia temos agora  ' + now.getHours() +' horas e '+now.getMinutes()+' minutos';
+    parag.innerHTML = '<strong>No horário de brasilia temos agora  </strong>' + now.getHours() +'<strong> horas e </strong>'+now.getMinutes()+'<strong> minutos</strong>';
 }
