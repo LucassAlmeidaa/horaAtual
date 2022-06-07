@@ -9,4 +9,24 @@ body{
 
 #btn{
     background-color: rgb(143, 226, 143);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+/* Celulares*/
+
+@media (max-width: 480px){
+    body{
+        display: flex;
+    }
+    .conteudo{
+        margin-left: 0;
+        margin-top: 20em;
+        flex-basis: 70%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 3em;
+        padding-bottom: 2em;
+    }
 }
